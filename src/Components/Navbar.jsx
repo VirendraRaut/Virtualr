@@ -9,6 +9,7 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
+
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative text-sm">
@@ -35,12 +36,39 @@ const Navbar = () => {
               Create an account
             </a>
           </div>
-          <div className="lg:hidden md:flex flex-col justify-end">
-            <button onClick={toggleNavbar}>
+          <div className="lg:hidden flex items-center">
+            <button onClick={toggleNavbar} className="text-white">
               {mobileDrawerOpen ? <X /> : <Menu />}
             </button>
           </div>
         </div>
+
+        {/* Mobile Nav Items */}
+        {mobileDrawerOpen && (
+          <div className="lg:hidden absolute top-16 left-0 w-full bg-neutral-900 z-40">
+            <ul className="flex flex-col items-center p-4 space-y-4">
+              {navItems.map((item, index) => (
+                <li key={index}>
+                  <a href={item.href} className="text-white hover:text-gray-400">
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+              {/* Separate container for buttons */}
+              <div className="flex flex-col items-center w-full space-y-2">
+                <a href="#" className="block px-3 py-2 border rounded-md text-white border-white hover:bg-gray-700">
+                  Sign In
+                </a>
+                <a
+                  href="#"
+                  className="block bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-3 rounded-md text-white"
+                >
+                  Create an account
+                </a>
+              </div>
+            </ul>
+          </div>
+        )}
       </div>
     </nav>
   );
