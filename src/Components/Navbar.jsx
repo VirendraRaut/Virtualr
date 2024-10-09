@@ -30,7 +30,7 @@ const Navbar = () => {
             </a>
             <a
               href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-3 rounded-md"
+              className="block bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-3 rounded-md"
             >
               Create an account
             </a>
