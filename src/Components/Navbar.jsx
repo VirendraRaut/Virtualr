@@ -16,6 +16,11 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <div className="hidden lg:flex space-x-12 justify-center items-center">
+            <a href="#" className="px-3 py-2 border rounded-md">
+              Sign In
+            </a>
+          </div>
         </div>
       </div>
     </nav>
