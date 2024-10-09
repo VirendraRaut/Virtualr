@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
-              {mobileDrwaerOpen ? <x /> : <Menu />}
+              {mobileDrwaerOpen ? <X /> : <Menu />}
             </button>
           </div>
         </div>
