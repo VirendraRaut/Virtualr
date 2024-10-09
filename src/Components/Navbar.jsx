@@ -4,10 +4,10 @@ import { navItems } from "../constants/index";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [mobileDrwaerOpen, setMobileDrawerOpen] = useState(false);
+  const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
-    setMobileDrawerOpen(!mobileDrwaerOpen);
+    setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
-              {mobileDrwaerOpen ? <X /> : <Menu />}
+              {mobileDrawerOpen ? <X /> : <Menu />}
             </button>
           </div>
         </div>
