@@ -20,6 +20,12 @@ const Navbar = () => {
             <a href="#" className="px-3 py-2 border rounded-md">
               Sign In
             </a>
+            <a
+              href="#"
+              className="bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-3 rounded-md"
+            >
+              Create an account
+            </a>
           </div>
         </div>
       </div>
