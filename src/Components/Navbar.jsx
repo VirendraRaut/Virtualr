@@ -9,7 +9,7 @@ const Navbar = () => {
             <img className="w-10 h-10 mr-2" src={logo} alt="" />
             <span className="text-xl tracking-tight">VirtualR</span>
           </div>
-          <ul className="hidden lg:flex ml-14 space-x-2"></ul>
+          <ul className="hidden lg:flex ml-14 space-x-12"></ul>
         </div>
       </div>
     </nav>
