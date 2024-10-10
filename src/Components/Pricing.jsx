@@ -24,7 +24,7 @@ const Pricing = () => {
                 <span className="text-neutral-500 tracking-tight">/Month</span>
               </p>
               <ul>
-                {options.CheckCircle2((feature, index) => (
+                {options.features.map((feature, index) => (
                   <li key={index} className="mt-8 flex items-center">
                     <CheckCircle2 />
                     <span className="ml-2">{feature}</span>
