@@ -23,6 +23,9 @@ const HeroSection = () => {
         >
           Start for free
         </a>
+        <a href="#" className="px-4 py-3 mx3' border rounded-md">
+          Documentation
+        </a>
       </div>
     </div>
   );
