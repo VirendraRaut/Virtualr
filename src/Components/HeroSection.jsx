@@ -29,17 +29,15 @@ const HeroSection = () => {
       </div>
       <div className="flex mt-10 justify-center">
         <video
-          src="#"
           autoPlay
           loop
           muted
-          className="border-lg mx-2 my-4 border border-orange-700 shadow-orange-400 w-1/2"
+          className="rounded-lg mx-2 my-4 border border-orange-700 shadow-orange-400 w-1/2"
         >
           <source src={video1} type="video/mp4" />
           Your browser does not support the video
         </video>
         <video
-          src="#"
           autoPlay
           loop
           muted
