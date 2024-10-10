@@ -16,6 +16,14 @@ const HeroSection = () => {
         intuitive developvement tools, Get started today and turn your
         imagination into immersive reality!
       </p>
+      <div className="flex justify-center my-10">
+        <a
+          href="#"
+          className="bg-gradient-to-t from-orange-500 to-orange-800 px-4 py-3 mx-3 rounded-md"
+        >
+          Start for free
+        </a>
+      </div>
     </div>
   );
 };
