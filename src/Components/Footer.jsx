@@ -6,10 +6,10 @@ const Footer = () => {
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
         <div>
           <h3 className="text-md font-semibold mb-4">Resources</h3>
-          <ul>
+          <ul className="space-y-2">
             {resourcesLinks.map((link, index) => (
               <li key={index}>
-                <a href={link.href}>{link.text}</a>
+                <a className="text-neutral-300" href={link.href}>{link.text}</a>
               </li>
             ))}
           </ul>
