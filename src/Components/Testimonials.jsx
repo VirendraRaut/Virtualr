@@ -1,8 +1,8 @@
-
+import { testimonials } from "../constants"
 
 const Testmonials = () => {
   return (
-    <div>
+    <div className="">
       
     </div>
   )
