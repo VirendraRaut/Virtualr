@@ -5,6 +5,9 @@ const FeaturesSection = () => {
         <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
           Features
         </span>
+        <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
+          Easily build your code
+        </h2>
       </div>
     </div>
   );
