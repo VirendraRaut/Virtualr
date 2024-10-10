@@ -7,7 +7,8 @@ const FeaturesSection = () => {
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
           Easily build
-          <span className="bg-gradient-to-r from-orange-500 to bg-orange-800">
+          <span className="bg-gradient-to-r from-orange-500 to bg-orange-800 text-transparent bg-clip-text">
+            {" "}
             your code
           </span>
         </h2>
