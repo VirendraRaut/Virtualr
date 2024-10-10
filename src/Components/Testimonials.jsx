@@ -19,6 +19,7 @@ const Testmonials = () => {
                 />
                 <div>
                   <h6>{testimonial.user}</h6>
+                  <span>{testimonial.company}</span>
                 </div>
               </div>
             </div>
