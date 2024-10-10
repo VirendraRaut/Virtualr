@@ -24,7 +24,9 @@ const FeaturesSection = () => {
               </div>
               <div>
                 <h2 className="mt-1 mb-6 text-xl">{features.text}</h2>
-                <p>{features.description}</p>
+                <p className="text-md p-2 mb-20 text-neutral-500">
+                  {features.description}
+                </p>
               </div>
             </div>
           </div>
