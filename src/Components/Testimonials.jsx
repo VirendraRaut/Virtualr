@@ -17,6 +17,9 @@ const Testmonials = () => {
                   src={testimonial.image}
                   alt=""
                 />
+                <div>
+                  <h6>{testimonial.user}</h6>
+                </div>
               </div>
             </div>
           </div>
