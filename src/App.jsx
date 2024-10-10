@@ -1,3 +1,4 @@
+import { Workflow } from "lucide-react";
 import FeaturesSection from "./Components/FeaturesSection";
 import HeroSection from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
@@ -9,6 +10,7 @@ const App = () => {
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
         <FeaturesSection/>
+        <Workflow/>
       </div>
     </>
   );
