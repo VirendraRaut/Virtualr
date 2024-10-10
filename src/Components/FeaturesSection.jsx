@@ -22,7 +22,10 @@ const FeaturesSection = () => {
               <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
                 {features.icon}
               </div>
-              <h2 className="mt-1 mb-6 text-xl">{features.text}</h2>
+              <div>
+                <h2 className="mt-1 mb-6 text-xl">{features.text}</h2>
+                <p>{features.description}</p>
+              </div>
             </div>
           </div>
         ))}
