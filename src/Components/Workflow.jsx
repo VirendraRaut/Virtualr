@@ -24,6 +24,7 @@ const Workflow = () => {
               </div>
               <div>
                 <h5 className="mt-1 mb-2 text-xl">{items.title}</h5>
+                <p className="text-md text-neutral-500">{items.description}</p>
               </div>
             </div>
           ))}
