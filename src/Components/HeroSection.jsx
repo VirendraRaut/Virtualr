@@ -11,6 +11,11 @@ const HeroSection = () => {
           for developers
         </span>
       </h1>
+      <p>
+        Empower your creativity and bring your VR app ideas to life with your
+        intuitive developvement tools, Get started today and turn your
+        imagination into immersive reality!
+      </p>
     </div>
   );
 };
