@@ -22,6 +22,9 @@ const Workflow = () => {
               <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
                 <CheckCircle2 />
               </div>
+              <div>
+                <h5 className="mt-1 mb-2 text-xl">{items.title}</h5>
+              </div>
             </div>
           ))}
         </div>
