@@ -29,7 +29,7 @@ const HeroSection = () => {
       </div>
       <div className="flex mt-10 justify-center">
         <video
-          src=""
+          src="#"
           autoPlay
           loop
           muted
@@ -39,7 +39,7 @@ const HeroSection = () => {
           Your browser does not support the video
         </video>
         <video
-          src=""
+          src="#"
           autoPlay
           loop
           muted
